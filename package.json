@@ -1,0 +1,41 @@
+{
+  "name": "learnflow",
+  "version": "1.0.0",
+  "description": "A Video Streaming Blog Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhil5466/Learnflow-blog.git"
+  },
+  "author": "Akhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhil5466/Learnflow-blog/issues"
+  },
+  "homepage": "https://github.com/akhil5466/Learnflow-blog#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.609.0",
+    "@aws-sdk/s3-request-presigner": "^3.609.0",
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.32.0",
+    "connect-mongo": "^3.2.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.1",
+    "fs-extra": "^9.0.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "uuid": "^9.0.0"
+  }
+}
