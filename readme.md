@@ -11,7 +11,6 @@ LearnFlow is a video streaming platform where users can browse videos on the hom
 •Videos are marked as viewed after a user watches 20% of the content.
 •Creators can upload videos, which are stored in an AWS S3 bucket.
 •Video streaming in chunks fetched from the S3 bucket.
-•Deployment on an AWS EC2 instance.
 •Clean and responsive user interface.
 •Backend design using MVC architecture.
 
